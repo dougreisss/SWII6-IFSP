@@ -11,6 +11,11 @@ namespace TP01.Models
         private string Name;
         private string Email;
         private char Gender;
+        
+        // to do 
+
+        // set authors
+
 
         public string GetName()
         {

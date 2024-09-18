@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TP01.Services;
 
 namespace TP01
 {
@@ -22,10 +23,15 @@ namespace TP01
 
             // to do 
 
-           // builder.MapRoute("/", );
+            BookController bookController = new BookController();   
+
+            builder.MapRoute("Book/GetBookName", bookController.GetBookName);
+            builder.MapRoute("Book/GetBooksWithAuthor", bookController.GetBooksWithAuthor);
 
             var routers = builder.Build();
             app.UseRouter(routers);
         }
+
+        
     }
 }
