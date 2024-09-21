@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP01.Models
 {
+    // Douglas Reis e Lucas Lusni
     public class Author
     {
         public string Name { get; set; }

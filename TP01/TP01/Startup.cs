@@ -13,6 +13,7 @@ namespace TP01
 {
     public class Startup
     {
+        // Douglas Reis e Lucas Lusni
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRouting();

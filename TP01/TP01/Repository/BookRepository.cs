@@ -10,6 +10,7 @@ using TP01.Repository.Interface;
 
 namespace TP01.Repository
 {
+    // Douglas Reis e Lucas Lusni
     public class BookRepository : IBookRepository
     {
         private static readonly string nameDatabaseCSV = "books.csv";

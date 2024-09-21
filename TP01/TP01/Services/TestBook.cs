@@ -9,6 +9,7 @@ namespace TP01.Services
 {
     public class TestBook
     {
+        // Douglas Reis e Lucas Lusni
         public void TestMethod()
         {
             Console.WriteLine("----------------------------------------------");
@@ -18,7 +19,7 @@ namespace TP01.Services
 
             Author[] authors = { author1, author2 };
 
-            Book book = new Book("Código Limpo: Habilidades práticas do Agile Software", authors, 29.99, 100);
+            Book book = new Book("Codigo Limpo: Habilidades praticas do Agile Software", authors, 29.99, 100);
 
             Console.WriteLine("Book name: " + book.GetName());
             Console.WriteLine("Authors: " + book.GetAuthorsName());

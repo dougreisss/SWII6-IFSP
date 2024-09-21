@@ -12,6 +12,7 @@ namespace TP01.Services
 {
     public class BookController
     {
+        // Douglas Reis e Lucas Lusni
         private readonly IBookRepository _bookRepository;
 
         public BookController()
@@ -31,7 +32,7 @@ namespace TP01.Services
                     new Author("Bob Martin", "bobmartin@gmail.com", 'm')
                 };
 
-                Book book = new Book("Código Limpo: Habilidades Práticas do Agile Software", authors, 85.70, 1000);
+                Book book = new Book("Codigo Limpo: Habilidades Praticas do Agile Software", authors, 85.70, 1000);
 
                 this._bookRepository.add(book);
             }
