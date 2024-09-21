@@ -234,20 +234,17 @@
     <Compile Include="Models\Book.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BookRepository.cs" />
+    <Compile Include="Repository\Interface\IBookRepository.cs" />
     <Compile Include="Services\BookController.cs" />
+    <Compile Include="Services\TestBook.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="DbContext\Author.sql" />
-    <Content Include="DbContext\Book.sql" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

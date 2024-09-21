@@ -9,7 +9,7 @@ namespace TP01.Models
     public class Book
     {
         private string Name;
-        private Author[] Authors;
+        public Author[] Authors { get; set; }
         private double Price;
         private int Qty;
 
@@ -65,26 +65,14 @@ namespace TP01.Models
 
         public override string ToString()
         {
-            StringBuilder stringBuilderAuthors = new StringBuilder();  
-
-            foreach (var author in this.Authors)
-            {
-                stringBuilderAuthors.Append($"{{Author[name = {author.GetName()}, email = {author.GetEmail()}, gender = {author.GetGender()}]}}");
-            }
-
-            return $"Book[name = {this.Name}, authors = {stringBuilderAuthors}, ]";
+            var authors = string.Join(", ", this.Authors.Select(a => a.ToString()));
+            return $"Book[name={this.Name}, authors={{{authors}}}, price={this.Price}, qty={this.Qty}]";
         }
 
         public string GetAuthorsName()
         {
-            StringBuilder stringBuilderAuthors = new StringBuilder();
-
-            foreach(var author in this.Authors)
-            {
-                stringBuilderAuthors.Append($"{author.GetName()}");
-            }
-
-            return stringBuilderAuthors.ToString();
+            var authorNames = this.Authors.Select(a => a.GetName()).ToArray();
+            return string.Join(", ", authorNames);
         }
     }
 }

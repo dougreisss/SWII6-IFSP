@@ -8,14 +8,16 @@ namespace TP01.Models
 {
     public class Author
     {
-        private string Name;
-        private string Email;
-        private char Gender;
-        
-        // to do 
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public char Gender { get; set; }
 
-        // set authors
-
+        public Author(string name, string email, char gender)
+        {
+            this.Name = name;
+            this.Email = email;
+            this.Gender = gender;
+        }
 
         public string GetName()
         {
@@ -30,6 +32,11 @@ namespace TP01.Models
         public char GetGender() 
         {
             return this.Gender; 
+        }
+
+        public override string ToString()
+        {
+            return $"Author[name={this.Name}, email={this.Email}, gender={this.Gender}]";
         }
     }
 }

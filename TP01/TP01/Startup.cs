@@ -21,17 +21,15 @@ namespace TP01
         {
             var builder = new RouteBuilder(app);
 
-            // to do 
-
             BookController bookController = new BookController();   
 
             builder.MapRoute("Book/GetBookName", bookController.GetBookName);
             builder.MapRoute("Book/GetBooksWithAuthor", bookController.GetBooksWithAuthor);
+            builder.MapRoute("Book/GetAuthorNames", bookController.GetAuthorsNames);
+            builder.MapRoute("Book/ApresentarLivro", bookController.GetHtmlBook);
 
             var routers = builder.Build();
             app.UseRouter(routers);
         }
-
-        
     }
 }

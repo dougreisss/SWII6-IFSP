@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TP01.Services;
 
 namespace TP01
 {
@@ -11,6 +12,12 @@ namespace TP01
     {
         static void Main(string[] args)
         {
+            BookController bookController = new BookController();
+
+            TestBook testBook = new TestBook();
+
+            testBook.TestMethod();
+
             IWebHost host = new WebHostBuilder()
                                 .UseKestrel()
                                 .UseStartup<Startup>()

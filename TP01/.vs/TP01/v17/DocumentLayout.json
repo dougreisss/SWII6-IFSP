@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\",
+  "WorkspaceRootPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dsantos\\onedrive - neogrid\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\services\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\services\\testbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\services\\testbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\services\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\services\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dsantos\\onedrive - neogrid\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dsantos\\onedrive - neogrid\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\repository\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp01\\tp01\\repository\\interface\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0805A0C0-877B-437F-A0D4-C2DB751543C3}|TP01\\TP01.csproj|solutionrelative:tp01\\repository\\interface\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Author.cs",
-              "DocumentMoniker": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "TP01\\Models\\Author.cs",
-              "ToolTip": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Author.cs",
-              "RelativeToolTip": "TP01\\Models\\Author.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAWAAAA",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Repository\\Interface\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "TP01\\Repository\\Interface\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Repository\\Interface\\IBookRepository.cs",
+              "RelativeToolTip": "TP01\\Repository\\Interface\\IBookRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:51:07.032Z",
+              "WhenOpened": "2024-09-21T17:17:13.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Startup.cs",
-              "RelativeDocumentMoniker": "TP01\\Startup.cs",
-              "ToolTip": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Startup.cs",
-              "RelativeToolTip": "TP01\\Startup.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABwAAABbAAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Program.cs",
+              "RelativeDocumentMoniker": "TP01\\Program.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Program.cs",
+              "RelativeToolTip": "TP01\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:40:57.557Z",
+              "WhenOpened": "2024-09-21T17:20:54.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "TP01\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Author.cs",
+              "RelativeToolTip": "TP01\\Models\\Author.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:18:18.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "TP01\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Models\\Book.cs",
+              "RelativeToolTip": "TP01\\Models\\Book.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAvwEUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:13:38.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Repository\\BookRepository.cs",
+              "RelativeDocumentMoniker": "TP01\\Repository\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Repository\\BookRepository.cs",
+              "RelativeToolTip": "TP01\\Repository\\BookRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvyUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:10:37.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\BookController.cs",
-              "RelativeDocumentMoniker": "TP01\\Services\\BookController.cs",
-              "ToolTip": "C:\\Users\\dsantos\\OneDrive - Neogrid\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\BookController.cs",
-              "RelativeToolTip": "TP01\\Services\\BookController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAACIAAAAmAAAA",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Startup.cs",
+              "RelativeDocumentMoniker": "TP01\\Startup.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Startup.cs",
+              "RelativeToolTip": "TP01\\Startup.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T00:40:39.909Z",
+              "WhenOpened": "2024-09-21T17:08:53.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\BookController.cs",
+              "RelativeDocumentMoniker": "TP01\\Services\\BookController.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\BookController.cs",
+              "RelativeToolTip": "TP01\\Services\\BookController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAvwDoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:08:24.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestBook.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\TestBook.cs",
+              "RelativeDocumentMoniker": "TP01\\Services\\TestBook.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP01\\TP01\\Services\\TestBook.cs",
+              "RelativeToolTip": "TP01\\Services\\TestBook.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T17:04:44.415Z",
               "EditorCaption": ""
             }
           ]
