@@ -1,0 +1,37 @@
+﻿@model IEnumerable<TP02_Comex.Models.Bl>
+
+@{
+    ViewData["Title"] = "BL List";
+}
+
+<h1>BL List</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create New BL</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>BL Number</th>
+            <th>Consignee</th>
+            <th>Ship</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bl in Model)
+        {
+            <tr>
+                <td>@bl.Numero</td>
+                <td>@bl.Consignee</td>
+                <td>@bl.Navio</td>
+                <td class="display-flex">                 
+                    <a asp-action="Edit" asp-route-id="@bl.IdBL" class="btn btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@bl.IdBL" class="btn btn-info">Details</a>
+                    <a asp-action="Delete" asp-route-id="@bl.IdBL" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

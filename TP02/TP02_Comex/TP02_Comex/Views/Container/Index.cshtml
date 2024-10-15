@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Container>
+
+@{
+    ViewData["Title"] = "Containers";
+}
+
+<h1>Containers</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Container</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Container Number</th>
+            <th>Container Type</th>
+            <th>Container Size</th>
+            <th>BL Number</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var container in Model)
+        {
+            <tr>
+                <td>@container.Numero</td>
+                <td>@container.ContainerType</td>
+                <td>@container.ContainerSize</td>
+                <td>@container.Bl?.Numero</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@container.IdContainer" class="btn btn-warning">Edit</a> 
+                    <a asp-action="Details" asp-route-id="@container.IdContainer" class="btn btn-info">Details</a> 
+                    <a asp-action="Delete" asp-route-id="@container.IdContainer" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+﻿@model TP02_Comex.Models.Bl
+
+@{
+    ViewData["Title"] = "Delete BL";
+}
+
+<h1>Delete BL</h1>
+
+<div>
+    <h3>Are you sure you want to delete this BL?</h3>
+    <div>
+        <h4>BL Number: @Model.Numero</h4>
+        <h4>Consignee: @Model.Consignee</h4>
+        <h4>Ship: @Model.Navio</h4>
+    </div>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdBL" />
+        <div class="display-flex">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+        </div>
+    </form>
+</div>

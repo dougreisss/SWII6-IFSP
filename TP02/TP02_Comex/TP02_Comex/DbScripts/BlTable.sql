@@ -1,0 +1,7 @@
+﻿CREATE TABLE Bl (
+    IdBL INT IDENTITY(1,1),
+    Numero NVARCHAR(50) NOT NULL,
+    Consignee NVARCHAR(255),
+    Navio NVARCHAR(255),
+    CONSTRAINT pk_Bl PRIMARY KEY (IdBL)
+);

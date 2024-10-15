@@ -1,0 +1,48 @@
+﻿@model Container
+
+@{
+    ViewData["Title"] = "Edit Container";
+}
+
+<h1>Edit Container</h1>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="IdContainer" />
+
+    <div class="form-group">
+        <label asp-for="Numero"></label>
+        <input asp-for="Numero" class="form-control" />
+        <span asp-validation-for="Numero" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ContainerType"></label>
+        <select asp-for="ContainerType" class="form-control">
+            <option value="">Select Container Type</option>
+            <option value="Dry">DRY</option>
+            <option value="Reefer">REEFER</option>
+        </select>
+        <span asp-validation-for="ContainerType" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ContainerSize"></label>
+        <select asp-for="ContainerSize" class="form-control">
+            <option value="">Select Container Size</option>
+            <option value="20">20</option>
+            <option value="40">40</option>
+        </select>
+        <span asp-validation-for="ContainerSize" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input asp-for="Bl.Navio" value="Bl.Navio" hidden />
+        <input asp-for="Bl.Consignee" value="Bl.Consignee" hidden />
+        <input asp-for="Bl.Numero" value="Bl.Numero" hidden />
+        <label asp-for="Bl.IdBL">BL Number</label>
+        <select asp-for="Bl.IdBL" class="form-control" asp-items="ViewBag.BLs"></select>
+        <span asp-validation-for="Bl.IdBL" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+

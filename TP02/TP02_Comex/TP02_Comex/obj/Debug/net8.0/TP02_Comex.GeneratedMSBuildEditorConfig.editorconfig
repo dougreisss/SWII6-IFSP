@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TP02_Comex
+build_property.RootNamespace = TP02_Comex
+build_property.ProjectDir = C:\Users\Dougl\OneDrive\Documentos\IFSP\SWII6-IFSP\TP02\TP02_Comex\TP02_Comex\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dougl\OneDrive\Documentos\IFSP\SWII6-IFSP\TP02\TP02_Comex\TP02_Comex
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/BL/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/BL/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/BL/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/BL/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/BL/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQkxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Container/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Container/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Container/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Container/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Container/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFpbmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dougl/OneDrive/Documentos/IFSP/SWII6-IFSP/TP02/TP02_Comex/TP02_Comex/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pht79xad5w

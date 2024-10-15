@@ -1,0 +1,18 @@
+﻿@model TP02_Comex.Models.Bl
+
+@{
+    ViewData["Title"] = "BL Details";
+}
+
+<h1>BL Details</h1>
+
+<div>
+    <h4>BL Number: @Model.Numero</h4>
+    <h4>Consignee: @Model.Consignee</h4>
+    <h4>Ship: @Model.Navio</h4>
+</div>
+
+<div class="display-flex">
+    <a href="@Url.Action("Edit", new { id = Model.IdBL })" class="btn btn-primary">Edit</a>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Back to List</a>
+</div>  
