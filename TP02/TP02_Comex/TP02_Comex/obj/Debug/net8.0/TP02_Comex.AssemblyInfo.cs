@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP02_Comex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b56ef8dcc7c9d6759c8c42a23bd841bf74ae1ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e45681a4bf176cbe4facc5621962142a35322a66")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP02_Comex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP02_Comex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

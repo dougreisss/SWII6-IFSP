@@ -72,7 +72,7 @@ namespace TP02_Comex.Repository
             using (SqlConnection conn = new SqlConnection(_connectionString))
             {
                 string query = "SELECT c.IdContainer, c.Numero, c.ContainerType, c.ContainerSize, c.IdBL, " +
-                               "b.IdBL, b.Numero, b.Consignee, b.Navio " +
+                               "b.IdBL, [NumeroBL] = b.Numero, b.Consignee, b.Navio " +
                                "FROM Container c " +
                                "INNER JOIN Bl b ON c.IdBL = b.IdBL " +
                                "WHERE c.IdContainer = @IdContainer";
@@ -94,7 +94,7 @@ namespace TP02_Comex.Repository
                             Bl = reader["IdBL"] != DBNull.Value ? new Bl
                             {
                                 IdBL = (int)reader["IdBL"],
-                                Numero = reader["Numero"].ToString(),
+                                Numero = reader["NumeroBL"].ToString(),
                                 Consignee = reader["Consignee"].ToString(),
                                 Navio = reader["Navio"].ToString()
                             } : null
@@ -113,7 +113,7 @@ namespace TP02_Comex.Repository
             using (SqlConnection conn = new SqlConnection(_connectionString))
             {
                 string query = "SELECT c.IdContainer, c.Numero, c.ContainerType, c.ContainerSize, c.IdBL, " +
-                               "b.IdBL, b.Numero, b.Consignee, b.Navio " +
+                               "b.IdBL, [NumeroBL] = b.Numero, b.Consignee, b.Navio " +
                                "FROM Container c " +
                                "LEFT JOIN Bl b ON c.IdBL = b.IdBL";
 
@@ -133,7 +133,7 @@ namespace TP02_Comex.Repository
                             Bl = reader["IdBL"] != DBNull.Value ? new Bl
                             {
                                 IdBL = (int)reader["IdBL"],
-                                Numero = reader["Numero"].ToString(),
+                                Numero = reader["NumeroBL"].ToString(),
                                 Consignee = reader["Consignee"].ToString(),
                                 Navio = reader["Navio"].ToString()
                             } : null

@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\repository\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\repository\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\models\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\models\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\container\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\bl\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -67,18 +79,6 @@
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\container\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\repository\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\repository\\containerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\models\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\models\\bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\models\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -105,14 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\dbscripts\\bltable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\dbscripts\\bltable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|c:\\users\\dougl\\onedrive\\documentos\\ifsp\\swii6-ifsp\\tp02\\tp02_comex\\tp02_comex\\dbscripts\\containertable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{D7C7EECC-AE14-444A-AA17-67245F78F61D}|TP02_Comex\\TP02_Comex.csproj|solutionrelative:tp02_comex\\dbscripts\\containertable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,37 +114,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Create.cshtml",
-              "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Create.cshtml",
-              "RelativeToolTip": "TP02_Comex\\Views\\BL\\Create.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAmwAoAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:11:33.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Edit.cshtml",
-              "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Edit.cshtml",
-              "RelativeToolTip": "TP02_Comex\\Views\\Container\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:23:42.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Delete.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Delete.cshtml",
@@ -165,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Details.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Details.cshtml",
@@ -178,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Edit.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Edit.cshtml",
@@ -191,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Index.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Index.cshtml",
@@ -204,20 +170,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Create.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Create.cshtml",
               "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Create.cshtml",
               "RelativeToolTip": "TP02_Comex\\Views\\Container\\Create.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAKAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-14T17:03:37.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Delete.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Delete.cshtml",
@@ -230,20 +196,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Index.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Index.cshtml",
               "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Index.cshtml",
               "RelativeToolTip": "TP02_Comex\\Views\\Container\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBoAAAAlAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T00:11:41.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Home\\Index.cshtml",
@@ -256,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Home\\Privacy.cshtml",
@@ -264,12 +230,11 @@
               "RelativeToolTip": "TP02_Comex\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T00:38:17.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:38:17.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Program.cs",
               "RelativeDocumentMoniker": "TP02_Comex\\Program.cs",
@@ -282,7 +247,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
+              "Title": "ContainerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Repository\\ContainerRepository.cs",
+              "RelativeDocumentMoniker": "TP02_Comex\\Repository\\ContainerRepository.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Repository\\ContainerRepository.cs",
+              "RelativeToolTip": "TP02_Comex\\Repository\\ContainerRepository.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAtwIYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T01:35:23.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bl.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Bl.cs",
+              "RelativeDocumentMoniker": "TP02_Comex\\Models\\Bl.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Bl.cs",
+              "RelativeToolTip": "TP02_Comex\\Models\\Bl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T23:43:07.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Edit.cshtml",
+              "RelativeToolTip": "TP02_Comex\\Views\\Container\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T00:23:42.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Container.cs",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Container.cs",
+              "RelativeDocumentMoniker": "TP02_Comex\\Models\\Container.cs",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Container.cs",
+              "RelativeToolTip": "TP02_Comex\\Models\\Container.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAlwBIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T17:05:30.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "TP02_Comex\\Controllers\\HomeController.cs",
@@ -290,12 +307,11 @@
               "RelativeToolTip": "TP02_Comex\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:28:39.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:28:39.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "ContainerController.cs",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Controllers\\ContainerController.cs",
               "RelativeDocumentMoniker": "TP02_Comex\\Controllers\\ContainerController.cs",
@@ -303,12 +319,24 @@
               "RelativeToolTip": "TP02_Comex\\Controllers\\ContainerController.cs",
               "ViewState": "AQIAAFwAAAAAAAAAAAAAwFUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:17:29.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:17:29.668Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Create.cshtml",
+              "RelativeDocumentMoniker": "TP02_Comex\\Views\\BL\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\BL\\Create.cshtml",
+              "RelativeToolTip": "TP02_Comex\\Views\\BL\\Create.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T00:11:33.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "BLController.cs",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Controllers\\BLController.cs",
               "RelativeDocumentMoniker": "TP02_Comex\\Controllers\\BLController.cs",
@@ -316,12 +344,11 @@
               "RelativeToolTip": "TP02_Comex\\Controllers\\BLController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAAABcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T00:07:38.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:07:38.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Views\\Container\\Details.cshtml",
               "RelativeDocumentMoniker": "TP02_Comex\\Views\\Container\\Details.cshtml",
@@ -335,26 +362,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ContainerTable.sql ",
+              "Title": "ContainerTable.sql",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\DbScripts\\ContainerTable.sql",
               "RelativeDocumentMoniker": "TP02_Comex\\DbScripts\\ContainerTable.sql",
               "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\DbScripts\\ContainerTable.sql",
               "RelativeToolTip": "TP02_Comex\\DbScripts\\ContainerTable.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-15T00:33:46.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:33:46.254Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "BlTable.sql ",
+              "Title": "BlTable.sql",
               "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\DbScripts\\BlTable.sql",
               "RelativeDocumentMoniker": "TP02_Comex\\DbScripts\\BlTable.sql",
               "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\DbScripts\\BlTable.sql",
               "RelativeToolTip": "TP02_Comex\\DbScripts\\BlTable.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-10-15T00:33:38.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T00:33:38.969Z"
             },
             {
               "$type": "Document",
@@ -366,47 +391,7 @@
               "RelativeToolTip": "TP02_Comex\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-14T23:44:39.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Bl.cs",
-              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Bl.cs",
-              "RelativeDocumentMoniker": "TP02_Comex\\Models\\Bl.cs",
-              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Bl.cs",
-              "RelativeToolTip": "TP02_Comex\\Models\\Bl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T23:43:07.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Container.cs",
-              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Container.cs",
-              "RelativeDocumentMoniker": "TP02_Comex\\Models\\Container.cs",
-              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Models\\Container.cs",
-              "RelativeToolTip": "TP02_Comex\\Models\\Container.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:05:30.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ContainerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Repository\\ContainerRepository.cs",
-              "RelativeDocumentMoniker": "TP02_Comex\\Repository\\ContainerRepository.cs",
-              "ToolTip": "C:\\Users\\Dougl\\OneDrive\\Documentos\\IFSP\\SWII6-IFSP\\TP02\\TP02_Comex\\TP02_Comex\\Repository\\ContainerRepository.cs",
-              "RelativeToolTip": "TP02_Comex\\Repository\\ContainerRepository.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAawEsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T01:35:23.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T23:44:39.716Z"
             },
             {
               "$type": "Document",
@@ -418,7 +403,8 @@
               "RelativeToolTip": "TP02_Comex\\Repository\\BLRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T23:43:40.06Z"
+              "WhenOpened": "2024-10-14T23:43:40.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
