@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace TP03_Douglas_Lucas.Models
 {
     [Table("Produto")]
-    public class Produto
+    public class Product
     {
         [Key]
         [Column("Id")]
@@ -12,17 +12,17 @@ namespace TP03_Douglas_Lucas.Models
         public int Id { get; set; }
         [Column("Nome")]
         [StringLength(100)]
-        public string? Nome { get; set; }
+        public string? Name { get; set; }
         [Column("Preco")]
         [Range(1, 10000)]
-        public decimal Preco { get; set; }
+        public decimal Price { get; set; }
         [Column("Unidade")]
-        public int Unidade { get; set; }
+        public int Unit { get; set; }
         [Column("Descricao")]
         [StringLength(255)]
-        public string? Descricao { get; set; }
+        public string? Description { get; set; }
         [Column("Categoria")]
         [StringLength(100)]
-        public string? Categoria { get; set; }
+        public string? CategoryName { get; set; }
     }
 }

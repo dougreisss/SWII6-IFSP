@@ -9,9 +9,9 @@ namespace TP03_Douglas_Lucas.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IProdutoRepository _produtoRepository;
+        private readonly IProductRepository _produtoRepository;
 
-        public HomeController(ILogger<HomeController> logger, IProdutoRepository produtoRepository)
+        public HomeController(ILogger<HomeController> logger, IProductRepository produtoRepository)
         {
             _logger = logger;
             _produtoRepository = produtoRepository;
@@ -19,7 +19,6 @@ namespace TP03_Douglas_Lucas.Controllers
 
         public IActionResult Index()
         {
-            var teste = _produtoRepository.GetAll();
             return View();
         }
 

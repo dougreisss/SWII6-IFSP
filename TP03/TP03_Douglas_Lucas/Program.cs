@@ -13,7 +13,7 @@ builder.Services.AddDbContext<SqlContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
         ));
 
-builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
