@@ -1,0 +1,57 @@
+﻿@model TP03_Douglas_Lucas.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div style="display: flex; justify-content: space-between;">
+    <div>
+        <h1>Details Product</h1>
+    </div>
+    <div>
+        <a asp-action="Index" asp-controller="Product" data-toggle="tooltip" data-placement="bottom" title="Back" class="btn btn-primary">
+            <i class="bi bi-arrow-left"></i>
+        </a>
+    </div>
+</div>
+
+<hr />
+
+<dl class="row">
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Price)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Price)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Unit)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Unit)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Description)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Description)
+    </dd>
+
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.CategoryName)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.CategoryName)
+    </dd>
+
+</dl>

@@ -8,27 +8,37 @@ namespace TP03_Douglas_Lucas.Models
     {
         [Key]
         [Column("Id")]
-        [Required]
         [Display(Name = "Id")]
         public int Id { get; set; }
+
         [Column("Name")]
-        [StringLength(100)]
         [Display(Name = "Name")]
+        [Required(ErrorMessage = "Required field.")]
+        [StringLength(100)]
         public string? Name { get; set; }
+
+
         [Column("Price")]
-        [Range(1, 10000)]
         [Display(Name = "Price")]
+        [Required(ErrorMessage = "Required field.")]
+        [Range(1, Double.PositiveInfinity, ErrorMessage = "The value is invalid.")]
         public decimal Price { get; set; }
+
         [Column("Unit")]
         [Display(Name = "Unit")]
+        [Required(ErrorMessage = "Required field")]
+        [Range(1, Double.PositiveInfinity, ErrorMessage = "The value is invalid.")]
         public int Unit { get; set; }
+
         [Column("Description")]
-        [StringLength(255)]
         [Display(Name = "Description")]
+        [StringLength(255, ErrorMessage = "Field exceeded character limit. ")]
         public string? Description { get; set; }
+
+
         [Column("CategoryName")]
-        [StringLength(100)]
         [Display(Name = "Category Name")]
+        [StringLength(100, ErrorMessage = "Field exceeded character limit")]
         public string? CategoryName { get; set; }
     }
 }

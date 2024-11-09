@@ -1,12 +1,14 @@
 ﻿@model List<TP03_Douglas_Lucas.Models.Product>
 
 @{
-    ViewData["Title"] = "Prodcts";
+    ViewData["Title"] = "Products";
 }
 
 <div class="text-center">
     <h1 class="display-6">Welcome to the Product Management System</h1>
 </div>
+
+<hr />
 
 <table class="table table-striped">
     <thead class="thead-dark">
@@ -49,17 +51,25 @@
 
                     <div class="flex" >
                         <div style="display: flex; justify-content: space-around">
-                            <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="View Details">
-                                <i class="bi bi-eye-fill"></i>
-                            </button>
 
-                            <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Edit">
-                                <i class="bi bi-pencil-fill"></i>
-                            </button>
-
-                            <button class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Delete">
-                                <i class="bi bi-trash-fill"></i>
-                            </button>
+                            <a asp-action="Details" asp-controller="Product" asp-route-id="@product.Id">
+                                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="View Details">
+                                    <i class="bi bi-eye-fill"></i>
+                                </button>
+                            </a>
+                          
+                            <a asp-action="Edit" asp-controller="Product" asp-route-id="@product.Id">
+                                <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Edit">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </button>
+                            </a>
+                           
+                            <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id" method="post">
+                                <button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="bottom" title="Delete">
+                                    <i class="bi bi-trash-fill"></i>
+                                </button>
+                            </form>
+                            
                         </div>
                     </div>
                    
