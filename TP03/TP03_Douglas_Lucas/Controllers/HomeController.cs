@@ -9,20 +9,13 @@ namespace TP03_Douglas_Lucas.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IProductRepository _produtoRepository;
 
-        public HomeController(ILogger<HomeController> logger, IProductRepository produtoRepository)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _produtoRepository = produtoRepository;
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

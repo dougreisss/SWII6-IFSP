@@ -13,36 +13,59 @@ namespace TP03_Douglas_Lucas.Repository
             _sqlContext = sqlContext;
         }
 
-        public async Task<List<Product>> GetAll()
+        public List<Product> GetAll()
         {
-            return await _sqlContext.Product.ToListAsync();
+            return  _sqlContext.Product.AsNoTracking().ToList();
         }
 
-        public async Task<Product> GetById(int id)
+        public Product GetById(int id)
         {
-            return await _sqlContext.Product.FirstOrDefaultAsync(x => x.Id == id);
+            return _sqlContext.Product.Find(id); 
         }
 
-        public async Task Insert(Product product)
+        public bool Insert(Product product)
         {
-            _sqlContext.Add(product);
-            await _sqlContext.SaveChangesAsync(); 
-        }
-
-        public async Task Update(Product product)
-        {
-            _sqlContext.Update(product);
-            await _sqlContext.SaveChangesAsync();
-        }
-
-        public async Task DeleteAsync(int id)
-        {
-            var product = await _sqlContext.Product.FindAsync(id);
-
-            if (product != null) 
+            try
             {
-                _sqlContext.Product.Remove(product);
-                await _sqlContext.SaveChangesAsync();
+                _sqlContext.Add(product);
+                _sqlContext.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool Update(Product product)
+        {
+            try
+            {
+                _sqlContext.Update(product);
+                _sqlContext.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool Delete(Product product)
+        {
+            try
+            {
+                if (product != null)
+                {
+                    _sqlContext.Product.Remove(product);
+                    _sqlContext.SaveChanges();
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                return false;
             }
         }
     }

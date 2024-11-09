@@ -9,20 +9,26 @@ namespace TP03_Douglas_Lucas.Models
         [Key]
         [Column("Id")]
         [Required]
+        [Display(Name = "Id")]
         public int Id { get; set; }
-        [Column("Nome")]
+        [Column("Name")]
         [StringLength(100)]
+        [Display(Name = "Name")]
         public string? Name { get; set; }
-        [Column("Preco")]
+        [Column("Price")]
         [Range(1, 10000)]
+        [Display(Name = "Price")]
         public decimal Price { get; set; }
-        [Column("Unidade")]
+        [Column("Unit")]
+        [Display(Name = "Unit")]
         public int Unit { get; set; }
-        [Column("Descricao")]
+        [Column("Description")]
         [StringLength(255)]
+        [Display(Name = "Description")]
         public string? Description { get; set; }
-        [Column("Categoria")]
+        [Column("CategoryName")]
         [StringLength(100)]
+        [Display(Name = "Category Name")]
         public string? CategoryName { get; set; }
     }
 }

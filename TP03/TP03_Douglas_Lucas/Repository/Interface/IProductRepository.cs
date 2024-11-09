@@ -4,10 +4,10 @@ namespace TP03_Douglas_Lucas.Repository.Interface
 {
     public interface IProductRepository
     {
-        Task<List<Product>> GetAll();
-        Task<Product> GetById(int id);
-        Task Insert(Product product);
-        Task Update(Product product);
-        Task DeleteAsync(int id);
+        List<Product> GetAll();
+        Product GetById(int id);
+        bool Insert(Product product);
+        bool Update(Product product);
+        bool Delete(Product product);
     }
 }
