@@ -16,7 +16,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAllProject()
         {
             try
             {
@@ -29,7 +29,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id) 
+        public async Task<IActionResult> GetProjectById(int id) 
         {
             try
             {
@@ -46,13 +46,13 @@ namespace WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Project project)
+        public async Task<IActionResult> CreateProject(Project project)
         {
             try
             {
                 _projectRepository.Insert(project);
 
-                return Created();
+                return Created("", new object { });
             }
             catch (Exception ex)
             {
@@ -61,7 +61,7 @@ namespace WebApi.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Project project)
+        public async Task<IActionResult> UpdateProject(Project project)
         {
             try
             {
@@ -76,7 +76,7 @@ namespace WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeleteProject(int id)
         {
             try
             {

@@ -28,7 +28,7 @@ namespace WebApi.Repository
         {
             try
             {
-                _context.Add(project);
+                _context.Projects.Add(project);
                 await _context.SaveChangesAsync();
                 return true;
             }
@@ -42,7 +42,7 @@ namespace WebApi.Repository
         {
             try
             {
-                _context.Update(project);
+                _context.Projects.Update(project);
                 await _context.SaveChangesAsync();
                 return true;
             }
@@ -56,7 +56,7 @@ namespace WebApi.Repository
         {
             try
             {
-                _context.Remove(project);
+                _context.Projects.Remove(project);
                 await _context.SaveChangesAsync();
                 return true;
             }
