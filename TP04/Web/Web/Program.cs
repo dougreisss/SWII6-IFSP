@@ -1,4 +1,4 @@
-using Web.Services;
+using Web.Utils.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 

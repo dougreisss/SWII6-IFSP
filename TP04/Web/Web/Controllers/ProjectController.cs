@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using Web.Models;
-using Web.Services;
+using Web.Utils.Services;
 
 namespace Web.Controllers
 {
