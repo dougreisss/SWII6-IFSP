@@ -65,7 +65,12 @@ namespace WebApi.Controllers
         {
             try
             {
-                await _projectRepository.Update(project);
+                var result = await _projectRepository.Update(project);
+
+                if (!result)
+                {
+                    return BadRequest();
+                }
 
                 return Ok();
             }
@@ -87,9 +92,14 @@ namespace WebApi.Controllers
                     return NoContent();
                 }
 
-                await _projectRepository.Delete(projectExists);
+                var result = await _projectRepository.Delete(projectExists);
 
-                return Ok();    
+                if (!result)
+                {
+                    return BadRequest();
+                }
+
+               return Ok();    
             }
             catch (Exception ex)
             {
