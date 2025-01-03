@@ -6,5 +6,6 @@ namespace WebApi.Repository.Interfaces
     {
         Task Delete(int id);
         Task<User> Login(string name, string senha);
+        Task<List<User>> GetUserByName(string name);
     }
 }

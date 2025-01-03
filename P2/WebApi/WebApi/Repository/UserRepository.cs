@@ -27,5 +27,10 @@ namespace WebApi.Repository
         {
             return await DbSet.AsNoTracking().FirstOrDefaultAsync(u => u.Name == name && u.Password == password && u.Status);
         }
+
+        public Task<List<User>> GetUserByName(string name)
+        {
+            return DbSet.AsTracking().Where(u => u.Name.Contains(name)).ToListAsync();
+        }
     }
 }

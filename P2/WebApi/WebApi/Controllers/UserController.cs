@@ -45,6 +45,21 @@ namespace WebApi.Controllers
             }
         }
 
+        [HttpGet("GetUserByName/{name}")]
+        public async Task<IActionResult> GetUserByName([FromRoute] string name)
+        {
+            try
+            {
+                var user = await _userRepository.GetUserByName(name);
+
+                return Ok(user);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpPost]  
         public async Task<IActionResult> Create([FromBody] User user)
         {
@@ -60,7 +75,7 @@ namespace WebApi.Controllers
             }
         }
 
-        [HttpPost("login")]
+        [HttpPost("Login")]
         public async Task<IActionResult> Login(string login, string password)
         {
             try
