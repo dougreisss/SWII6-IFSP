@@ -8,4 +8,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UtilsApp">
+      <HintPath>..\..\UtilsApp\UtilsApp\bin\Debug\net8.0\UtilsApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

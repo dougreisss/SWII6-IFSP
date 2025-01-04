@@ -1,4 +1,7 @@
-﻿namespace DesktopApp
+﻿using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
+namespace DesktopApp
 {
     partial class frmUser
     {
@@ -28,20 +31,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnBuscarUsuario = new Button();
             label1 = new Label();
             txtBuscarUsuario = new TextBox();
-            dataGridView1 = new DataGridView();
-            Id = new DataGridViewTextBoxColumn();
-            Name = new DataGridViewTextBoxColumn();
-            Password = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            dgvUser = new DataGridView();
+            contextMenuStrip1 = new ContextMenuStrip(components);
+            adicionarUsuárioToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1 = new MenuStrip();
+            tsmiGerenciarUsuario = new ToolStripMenuItem();
+            tstmiAdicionarUsuario = new ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)dgvUser).BeginInit();
+            contextMenuStrip1.SuspendLayout();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // btnBuscarUsuario
             // 
-            btnBuscarUsuario.Location = new Point(526, 6);
+            btnBuscarUsuario.Location = new Point(526, 40);
             btnBuscarUsuario.Name = "btnBuscarUsuario";
             btnBuscarUsuario.Size = new Size(229, 23);
             btnBuscarUsuario.TabIndex = 1;
@@ -52,7 +59,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(12, 43);
             label1.Name = "label1";
             label1.Size = new Size(147, 15);
             label1.TabIndex = 2;
@@ -60,52 +67,64 @@
             // 
             // txtBuscarUsuario
             // 
-            txtBuscarUsuario.Location = new Point(165, 6);
+            txtBuscarUsuario.Location = new Point(165, 40);
             txtBuscarUsuario.Name = "txtBuscarUsuario";
             txtBuscarUsuario.Size = new Size(355, 23);
             txtBuscarUsuario.TabIndex = 3;
             // 
-            // dataGridView1
+            // dgvUser
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, Name, Password, Status });
-            dataGridView1.Location = new Point(12, 49);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(743, 150);
-            dataGridView1.TabIndex = 4;
+            dgvUser.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvUser.Location = new Point(12, 80);
+            dgvUser.Name = "dgvUser";
+            dgvUser.ReadOnly = true;
+            dgvUser.Size = new Size(743, 150);
+            dgvUser.TabIndex = 4;
+            dgvUser.CellContentClick += dgvUser_CellContentClick;
             // 
-            // Id
+            // contextMenuStrip1
             // 
-            Id.FillWeight = 50F;
-            Id.HeaderText = "Id";
-            Id.Name = "Id";
-            Id.Width = 50;
+            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { adicionarUsuárioToolStripMenuItem });
+            contextMenuStrip1.Name = "contextMenuStrip1";
+            contextMenuStrip1.Size = new Size(169, 26);
             // 
-            // Name
+            // adicionarUsuárioToolStripMenuItem
             // 
-            Name.FillWeight = 300F;
-            Name.HeaderText = "Nome";
-            Name.Name = "Name";
-            Name.Width = 300;
+            adicionarUsuárioToolStripMenuItem.MergeIndex = 1;
+            adicionarUsuárioToolStripMenuItem.Name = "adicionarUsuárioToolStripMenuItem";
+            adicionarUsuárioToolStripMenuItem.Size = new Size(168, 22);
+            adicionarUsuárioToolStripMenuItem.Text = "Adicionar Usuário";
             // 
-            // Password
+            // menuStrip1
             // 
-            Password.HeaderText = "Password";
-            Password.Name = "Password";
-            Password.Width = 300;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tsmiGerenciarUsuario });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(766, 24);
+            menuStrip1.TabIndex = 5;
+            menuStrip1.Text = "menuStrip1";
             // 
-            // Status
+            // tsmiGerenciarUsuario
             // 
-            Status.HeaderText = "Status";
-            Status.Name = "Status";
-            Status.Width = 50;
+            tsmiGerenciarUsuario.DropDownItems.AddRange(new ToolStripItem[] { tstmiAdicionarUsuario });
+            tsmiGerenciarUsuario.Name = "tsmiGerenciarUsuario";
+            tsmiGerenciarUsuario.Size = new Size(111, 20);
+            tsmiGerenciarUsuario.Text = "Gerenciar usuário";
+            // 
+            // tstmiAdicionarUsuario
+            // 
+            tstmiAdicionarUsuario.Name = "tstmiAdicionarUsuario";
+            tstmiAdicionarUsuario.Size = new Size(180, 22);
+            tstmiAdicionarUsuario.Text = "Adicionar usuário";
+            tstmiAdicionarUsuario.Click += tstmiAdicionarUsuario_Click;
             // 
             // frmUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(767, 211);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(766, 247);
+            Controls.Add(menuStrip1);
+            Controls.Add(dgvUser);
             Controls.Add(txtBuscarUsuario);
             Controls.Add(label1);
             Controls.Add(btnBuscarUsuario);
@@ -114,7 +133,10 @@
             Name = "frmUser";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Gerenciador de Usuários";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvUser).EndInit();
+            contextMenuStrip1.ResumeLayout(false);
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -123,10 +145,11 @@
         private Button btnBuscarUsuario;
         private Label label1;
         private TextBox txtBuscarUsuario;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Id;
-        private DataGridViewTextBoxColumn Name;
-        private DataGridViewTextBoxColumn Password;
-        private DataGridViewTextBoxColumn Status;
+        private DataGridView dgvUser;
+        private ContextMenuStrip contextMenuStrip1;
+        private ToolStripMenuItem adicionarUsuárioToolStripMenuItem;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem tsmiGerenciarUsuario;
+        private ToolStripMenuItem tstmiAdicionarUsuario;
     }
 }
