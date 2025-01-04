@@ -22,9 +22,7 @@ namespace UtilsApp.Services
 
         public async Task<List<ProductDTO>> GetAll()
         {
-            this.client.BaseAddress = new Uri($"{baseUrl}/");
-
-            var request = new HttpRequestMessage(HttpMethod.Get, baseUrl);  
+            var request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/");  
 
             var response = await this.client.SendAsync(request);
 
@@ -35,9 +33,7 @@ namespace UtilsApp.Services
 
         public async Task<ProductDTO> GetById(int id)
         {
-            this.client.BaseAddress = new Uri($"{baseUrl}/{id}");
-
-            var request = new HttpRequestMessage(HttpMethod.Get, this.client.BaseAddress);
+            var request = new HttpRequestMessage(HttpMethod.Get, $"{baseUrl}/{id}");
 
             var response = await this.client.SendAsync(request);
 
@@ -48,9 +44,7 @@ namespace UtilsApp.Services
 
         public async Task<bool> Create(ProductDTO product)
         {
-            this.client.BaseAddress = new Uri($"{baseUrl}/");
-
-            var request = new HttpRequestMessage(HttpMethod.Post, this.client.BaseAddress);
+            var request = new HttpRequestMessage(HttpMethod.Post, $"{baseUrl}/");
 
             var content = JsonConvert.SerializeObject(product);
 
@@ -63,9 +57,7 @@ namespace UtilsApp.Services
 
         public async Task<bool> Update(ProductDTO product)
         {
-            this.client.BaseAddress = new Uri($"{baseUrl}");
-
-            var request = new HttpRequestMessage(HttpMethod.Put, this.client.BaseAddress);
+            var request = new HttpRequestMessage(HttpMethod.Put, $"{baseUrl}");
 
             var content = JsonConvert.SerializeObject(product);
 
@@ -78,9 +70,7 @@ namespace UtilsApp.Services
 
         public async Task<bool> Delete(int id)
         {
-            this.client.BaseAddress = new Uri($"{baseUrl}/{id}");
-
-            var request = new HttpRequestMessage(HttpMethod.Delete, this.client.BaseAddress);
+            var request = new HttpRequestMessage(HttpMethod.Delete, $"{baseUrl}/{id}");
 
             var response = await this.client.SendAsync(request);
 

@@ -1,6 +1,5 @@
 using UtilsApp.DTOs;
 using UtilsApp.Services;
-using Newtonsoft.Json;
 
 namespace DesktopApp
 {
@@ -35,12 +34,16 @@ namespace DesktopApp
 
         private void dgvUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            var teste = dgvUser.Rows[e.RowIndex].DataBoundItem;
+            UserDTO user = (UserDTO)dgvUser.Rows[e.RowIndex].DataBoundItem;
+
+            var frmDetailsUser = new frmDetailsUser(this, user);
+
+            frmDetailsUser.Show();
         }
 
         private void tstmiAdicionarUsuario_Click(object sender, EventArgs e)
         {
-            var frmAddUser = new frmAddUser();
+            var frmAddUser = new frmAddUser(this);
 
             frmAddUser.Show();
         }
