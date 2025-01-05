@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UtilsApp.DTOs;
 using WebApi.Model;
 using WebApi.Repository.Interfaces;
 
@@ -76,11 +77,11 @@ namespace WebApi.Controllers
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login(string login, string password)
+        public async Task<IActionResult> Login(AuthDTO auth)
         {
             try
             {
-                var user = await _userRepository.Login(login, password);
+                var user = await _userRepository.Login(auth.Login, auth.Password);
                 return Ok(user);
             }
             catch (Exception ex)

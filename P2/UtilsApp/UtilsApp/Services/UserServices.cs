@@ -89,5 +89,26 @@ namespace UtilsApp.Services
 
             return response.StatusCode == HttpStatusCode.OK;
         }
+
+        public async Task<UserDTO> Login(string login, string password)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Post, $"{baseUrl}/Login");
+
+            var auth = new AuthDTO
+            {
+                Login = login,
+                Password = password
+            };
+
+            var content = JsonConvert.SerializeObject(auth);
+
+            request.Content = new StringContent(content, null, "application/json");
+
+            var response = await this.client.SendAsync(request);
+
+            var user = JsonConvert.DeserializeObject<UserDTO>(await response.Content.ReadAsStringAsync());
+
+            return user;
+        }
     }
 }

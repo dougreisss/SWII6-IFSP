@@ -26,4 +26,10 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="UtilsApp">
+      <HintPath>..\..\UtilsApp\UtilsApp\bin\Debug\net8.0\UtilsApp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
