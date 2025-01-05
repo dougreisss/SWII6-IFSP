@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using UtilsApp.Services;
+using UtilsApp.Utils;
 using Web.Models;
-using System.Diagnostics;
 
 namespace Web.Controllers
 {
@@ -20,16 +20,22 @@ namespace Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Login(AuthDTO auth) 
+        public async Task<IActionResult> Login(AuthDTO auth)
         {
             if (ModelState.IsValid)
             {
                 var user = await userServices.Login(auth.Login, auth.Password);
 
-                if (user == null) 
+                if (user == null)
                 {
-                    Response.();
+                    Response.toClearCookieUser();
+                    ModelState.AddModelError(string.Empty, "Nome de usuário ou senha inválidos.");
+                    return View("Authentication");
                 }
+
+                Response.toSaveCookieUser(user);
+
+                return RedirectToAction("Index", "Product");
             }
 
             return View("Authentication");
