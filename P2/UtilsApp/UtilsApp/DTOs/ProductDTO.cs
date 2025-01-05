@@ -11,6 +11,7 @@ namespace UtilsApp.DTOs
         public string Name { get; set; }
 
         [Display(Name = "Preço")]
+        [Range(0, float.MaxValue)]
         public float Price { get; set; }
 
         [Display(Name = "Status")]

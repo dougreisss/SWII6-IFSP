@@ -1,5 +1,45 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model UtilsApp.DTOs.ProductDTO
+
 @{
+    ViewData["Title"] = "Edit";
 }
+
+<div class="text-center">
+    <h1>Edit Product</h1>
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <input asp-for="CreatedByUserId" type="number" hidden />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control mt-1" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control mt-1" type="number" min="0" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input asp-for="Status" class="form-check-input" type="checkbox">
+                <label asp-for="Status" class="form-check-label"></label>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary form-control">Editar</button>
+            </div>
+        </form>
+    </div>
+</div>
