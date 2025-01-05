@@ -30,8 +30,8 @@ namespace WebApi.Controllers
                     Status = product.Status,
                     CreatedByUserId = product.CreatedByUserId,
                     CreatedByUser = product.CreatedByUser.Name,
-                    UpdatedByUserId = product.UpdatedByUserId,
-                    UpdatedByUser = product.UpdatedByUser.Name
+                    UpdatedByUserId = product?.UpdatedByUserId ?? 0,
+                    UpdatedByUser = product?.UpdatedByUser?.Name ?? ""
                 })
                 .ToList();
 
@@ -58,8 +58,8 @@ namespace WebApi.Controllers
                     Status = product.Status,
                     CreatedByUserId = product.CreatedByUserId,
                     CreatedByUser = product.CreatedByUser.Name,
-                    UpdatedByUserId = product.UpdatedByUserId,
-                    UpdatedByUser = product.UpdatedByUser.Name
+                    UpdatedByUserId = product?.UpdatedByUserId ?? 0,
+                    UpdatedByUser = product?.UpdatedByUser?.Name ?? ""
                 };
 
                 return Ok(productDto);
