@@ -8,9 +8,11 @@ namespace Web.Controllers
     public class ProductController : Controller
     {
         private readonly ProductServices productServices;
-        public ProductController(ProductServices productServices)
+        private readonly UserServices userServices;
+        public ProductController(ProductServices productServices, UserServices userServices)
         {
             this.productServices = productServices;
+            this.userServices = userServices;
         }
 
         public async Task<IActionResult> Index()
@@ -41,7 +43,7 @@ namespace Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ProductDTO product)
+        public async Task<IActionResult> Create([Bind("Id, Name, Price, Status, CreatedByUserId, UpdatedByUserId")]  ProductDTO product)
         {
             if (ModelState.IsValid)
             {

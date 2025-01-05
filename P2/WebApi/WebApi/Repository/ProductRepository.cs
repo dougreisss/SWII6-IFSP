@@ -12,15 +12,28 @@ namespace WebApi.Repository
             
         }
 
+        public async Task<List<Product>> GetAllWithUser()
+        {
+            return await DbSet
+               .AsNoTracking()
+               .Include(p => p.CreatedByUser)
+               .Include(p => p.UpdatedByUser)
+               .ToListAsync();
+        }
+
         public async override Task<Product> GetById(int id)
         {
-            return await DbSet.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+            return await DbSet
+                .AsNoTracking()
+                .Include(p => p.CreatedByUser)
+                .Include(p => p.UpdatedByUser)
+                .FirstOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task Delete(int id)
         {
             var product = await GetById(id);
             await base.Delete(product);
-        }
+        }   
     }
 }

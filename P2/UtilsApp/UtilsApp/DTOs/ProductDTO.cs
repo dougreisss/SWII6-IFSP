@@ -18,9 +18,13 @@ namespace UtilsApp.DTOs
         public bool Status { get; set; }
 
         [Display(Name = "Criado por")]
+        public string? CreatedByUser { get; set; }
+
         public int CreatedByUserId { get; set; }
 
         [Display(Name = "Atualizado por")]
+        public string? UpdatedByUser { get; set; }
+
         public int? UpdatedByUserId { get; set; }
     }
 }

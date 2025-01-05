@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using UtilsApp.DTOs;
 using WebApi.Model;
 using WebApi.Repository.Interfaces;
 
@@ -20,9 +21,21 @@ namespace WebApi.Controllers
         {
             try
             {
-                var products = await _productRepository.GetAll();
+                var productsDto = (await _productRepository.GetAllWithUser())
+                .Select(product => new ProductDTO
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Price = product.Price,
+                    Status = product.Status,
+                    CreatedByUserId = product.CreatedByUserId,
+                    CreatedByUser = product.CreatedByUser.Name,
+                    UpdatedByUserId = product.UpdatedByUserId,
+                    UpdatedByUser = product.UpdatedByUser.Name
+                })
+                .ToList();
 
-                return Ok(products);    
+                return Ok(productsDto);    
             }
             catch (Exception ex)
             {
@@ -37,7 +50,19 @@ namespace WebApi.Controllers
             {
                 var product = await _productRepository.GetById(id);
 
-                return Ok(product);
+                var productDto = new ProductDTO
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Price = product.Price,
+                    Status = product.Status,
+                    CreatedByUserId = product.CreatedByUserId,
+                    CreatedByUser = product.CreatedByUser.Name,
+                    UpdatedByUserId = product.UpdatedByUserId,
+                    UpdatedByUser = product.UpdatedByUser.Name
+                };
+
+                return Ok(productDto);
             }
             catch (Exception ex)
             {
